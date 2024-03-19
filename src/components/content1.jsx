@@ -9,7 +9,7 @@ const Content1 = () => {
                 <div className="w-full lg:w-1/2 flex flex-col justify-center">
                     <div className="text-center mt-10 ">
                         <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-800 sm:text-3xl"> A Simple Bookmark Manager</h3>
-                        <div className="mt-6 text-xl leading-8 text-gray-700 ">
+                        <div className="mt-6 text-xl px-8 leading-8 text-gray-700 ">
                             <p>
                                 A clean and simple interface to organize your favourite websites.
                                 Open a new browser tab and see your sites load instantly.

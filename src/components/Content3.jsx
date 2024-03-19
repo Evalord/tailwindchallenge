@@ -33,7 +33,7 @@ const Content3 = () => {
   ]
 
   return (
-    <div className="text-center py-16">
+    <div className="text-center">
       <div>
         <h4 className="mt-2 text-2xl font-bold tracking-tight text-gray-700 sm:text-2xl"> Download the extension </h4>
         <p className="mt-6 text-xl leading-8 text-gray-700">
@@ -47,7 +47,7 @@ const Content3 = () => {
         {
           posts.map((items, key) => (
             <div key={key}>
-              <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm">
+              <article className=" p-4 max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm">
                 <a href={items.href}>
                   <div className="h-58 mt-5 flex justify-center ">
                     <img src={items.img} loading="lazy" width={100} style={{ height: 90 }} />
